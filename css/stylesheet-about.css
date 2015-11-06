@@ -1,0 +1,152 @@
+/*
+Classes .row-spacer, .make-room-1 and .make-room-2 are meant to exist
+only to give space or room to other classes so they can be positioned 
+in the correct place according to the grid system.
+*/
+
+body {
+	margin: 0 auto;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+.containers {
+	min-height: 100%;
+	min-width: 100%;
+	position: relative;
+	background: url(../img/texture2.jpg);
+	background-size: cover;
+	background-color: lightgray;
+	background-repeat: no-repeat;
+	font-family: 'Quicksand';
+	transition: background 0.1s linear;
+}
+
+.second-container {
+	margin-right: -35px;
+	display: block;
+	position: fixed;
+}
+
+.second-container, 
+.rower,
+.navbar-col-class,
+.navbar-lower-class {
+	height: 100%;
+}
+
+.navbar-col-class {
+					/* 	OPTIONS  */
+					/*Brownish*/
+	/*background-color: rgba(103, 110, 68, 0.3);*/
+					/*Very dark purple*/
+	/*background-color: rgba(67, 36, 66, 0.3);*/
+					/*Very dark blue*/
+	/*background-color: rgba(36, 66, 67, 0.5);*/
+					/*Black to give it a gray look*/
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-lower-class {
+	background-color: transparent;
+	border: 0px;
+}
+
+.row-spacer {
+	height: 65%;
+}
+
+ul {
+  	color: white;
+  	font-size: 1.8em;
+  	list-style-type: none;
+  	position: absolute;
+}
+
+ul li {
+ 	margin-top: 35px;
+}
+
+ul li:hover {
+ 	letter-spacing: 1.3px;
+ 	cursor: pointer;
+ 	border-right: 1px solid white;
+}
+
+footer {
+ 	height: 20px;
+ 	min-width: 100%;
+ 	color: darkgray;
+ 	background-color: black;
+ 	border-top: 1px solid darkgray;
+	min-width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto;
+}
+
+footer p {
+ 	text-align: center;
+ 	margin-right: 400px;
+ 	margin-bottom: -10px;
+ 	border-bottom: 1px solid black;
+}
+
+.text {
+	text-align: center;
+}
+
+.text .four,
+.text .five {
+	text-align: left;
+}
+
+.text .one,
+.text .two,
+.text .three {
+	text-align: right;
+}
+
+.text .bold {
+	font-weight: bold;
+}
+
+.email,
+.text-subclass .one,
+.text-subclass .two,
+.text-subclass .three,
+.text-subclass .four,
+.text-subclass .five,
+.text-subclass .six,
+.text-subclass .seven,
+.text-subclass .eight {
+	display: none;
+}
+
+.email {
+	height: 150px;
+	position: absolute;
+	bottom: 45px;
+	width: 45%;
+}
+
+.myform {
+	margin-left: 100px;
+	margin-top: 55px;
+}
+
+textarea {
+   resize: none;
+}

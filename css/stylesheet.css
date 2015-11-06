@@ -1,0 +1,127 @@
+/*
+Classes .row-spacer, .make-room-1 and .make-room-2 are meant to exist
+only to give space or room to other classes so they can be positioned 
+in the correct place according to the grid system.
+*/
+
+body {
+	margin: 0 auto;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.containers {
+	min-height: 100%;
+	min-width: 100%;
+	position: relative;
+	background: url(../img/pins-yellow.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Quicksand';
+	transition: background 0.1s linear;
+}
+
+.second-container {
+	margin-right: -35px;
+	display: block;
+	position: fixed;
+}
+
+.second-container, 
+.rower,
+.navbar-col-class,
+.navbar-lower-class {
+	height: 100%;
+}
+
+.navbar-col-class {
+					/* 	OPTIONS  */
+					/*Brownish*/
+	/*background-color: rgba(103, 110, 68, 0.3);*/
+					/*Very dark purple*/
+	/*background-color: rgba(67, 36, 66, 0.3);*/
+					/*Very dark blue*/
+	/*background-color: rgba(36, 66, 67, 0.5);*/
+					/*Black to give it a gray look*/
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-lower-class {
+	background-color: transparent;
+	border: 0px;
+}
+
+.row-spacer {
+	height: 65%;
+}
+
+ul {
+  	color: white;
+  	font-size: 1.8em;
+  	list-style-type: none;
+  	position: absolute;
+}
+
+ul li {
+ 	margin-top: 35px;
+}
+
+ul li:hover {
+ 	letter-spacing: 1.3px;
+ 	cursor: pointer;
+ 	border-right: 1px solid white;
+}
+
+footer {
+ 	height: 20px;
+ 	min-width: 100%;
+ 	color: darkgray;
+ 	background-color: black;
+ 	border-top: 1px solid darkgray;
+ 	border-bottom: 1px solid black;
+	min-width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto;
+}
+
+footer p {
+ 	text-align: center;
+ 	margin-right: 400px;
+ 	margin-bottom: -10px;
+ 	border-bottom: 1px solid black;
+}
+
+blockquote {
+	color: gray;
+	font-size: 1.8em;
+}
+
+.make-room-1 {
+	height: 300px;
+}
+
+.make-room-2 {
+	height: 630px;
+	color: #262a1a;
+}
+
+.col-sm-offset-7 blockquote {
+	color: #262a1a;
+	font-size: 2em;
+	text-shadow: 1px 1px black;
+}
+
